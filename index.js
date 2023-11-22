@@ -2,6 +2,7 @@
 const mongoose = require('mongoose');
 const m=require('./Module');
 const m1=new m();
+mongoose.set("strictQuery", false);
 mongoose.connect('mongodb+srv://cyber0bravo:%40123%40krishna@anonymous.kd2th5b.mongodb.net/yourDB-name?retryWrites=true&w=majority', {
 
 	useNewUrlParser: true,
