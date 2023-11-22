@@ -2,8 +2,8 @@
 const mongoose = require('mongoose');
 const m=require('./Module');
 const m1=new m();
-mongoose.connect('mongodb+srv://cyber0bravo:%40123%40krishna@anonymous.kd2th5b.mongodb.net/?retryWrites=true&w=majority', {
-	dbName: 'yourDB-name',
+mongoose.connect('mongodb+srv://cyber0bravo:%40123%40krishna@anonymous.kd2th5b.mongodb.net/yourDB-name?retryWrites=true&w=majority', {
+
 	useNewUrlParser: true,
 	useUnifiedTopology: true
 }, err => err ? console.log(err) :
